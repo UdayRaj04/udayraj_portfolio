@@ -1,0 +1,226 @@
+.edu-heading-bar {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+@media (min-width: 600px) {
+  .edu-heading-bar{
+    margin: 2rem 8% ;
+  }
+
+}
+
+.edu-heading-label {
+  background-color: #64ffda;
+  color:  #0a192f;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight:bold;
+  white-space: nowrap;
+}
+
+.edu-heading-line {
+  flex-grow: 1;
+  height: 2px;
+  background-color:  #64ffda;
+  margin-left: 10px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none; border: none;
+  /* text-transform:capitalize; */
+  transition: all .2s linear;
+} 
+/* html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+} */
+/* body{
+  background: #f7f7f7;
+  font-family: 'Poppins', sans-serif;
+} */
+/* 
+*::selection{
+  background: #2b3dda;
+  color: #fff;
+} */
+
+
+
+html::-webkit-scrollbar{
+  width: .5rem;
+}
+html::-webkit-scrollbar-track{
+  background: #0a192f;
+}
+html::-webkit-scrollbar-thumb{
+  background: rgb(0, 255, 195);
+}  
+
+
+
+/* hamburger icon ends */
+
+/* work section starts */
+.work{
+    
+  /* background: #010124; */
+  /* background: linear-gradient(to bottom, #010136, #00003a); */
+  margin-top: 5rem;
+}
+.work h2{
+    
+  color: #fff;
+  padding: 1rem;
+}
+.work .heading span{
+  color:  rgb(100, 255, 218);
+}
+.work .button-group{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1rem;
+  margin: 2rem auto;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.work .button-group .btn{
+    
+  outline: none;
+  padding: 1rem 2rem;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.work .button-group .btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+.work .button-group .btn.is-checked{
+  background-color: #fff;
+  color: #000;
+}
+.work .box-container{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  margin: 2rem;
+}
+.work .box-container .box{
+  flex:1 1 30rem;
+  border-radius: .5rem;
+  box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
+  position: relative;
+  overflow:hidden;
+  height:20rem;
+  background: #fff;
+  border: none;
+}
+.work .box-container .box img{
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+}
+.work .box-container .box .content{
+  height: 100%;
+  width:100%;
+  position: absolute;
+  top:85%; left:0;
+  background:rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+}
+.work .box-container .box .content .tag{
+    color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  width: 100%;
+  padding-left: 1rem;
+  background:  rgb(100, 255, 218);
+}
+.work .box-container .box .content .tag h3{
+  /* font-size: 2rem; */
+}
+.work .box-container .box:hover .content{
+  top: 30%;
+}
+.work .desc {
+  margin: .7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.work .desc p{
+    color: #000;
+  font-size: .9rem;
+}
+.work .desc .btns{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+}
+.work .desc .btns .btn{
+    align-items: center;
+  line-height: 0;
+  display: inline;
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  /* font-size: 1.5rem; */
+  color: #fff;
+  background: rgb(12, 12, 12);
+  margin-right: 2rem;
+}
+.work .desc .btns .btn:hover{
+  background: #16396d;
+}
+
+@media screen and (max-width: 450px) {
+  .work .button-group{
+    width: 100%;
+  }
+  .work .box-container{
+    margin: 0rem;
+  }
+  .work .box-container .grid-item .box{
+    width: 95% !important;
+  }
+}
+
+
+.load-more-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.load-more-btn {
+  padding: 10px 24px;
+  background: linear-gradient(45deg, #64ffda, #0066ff);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.load-more-btn:hover {
+  background: linear-gradient(45deg, #0066ff, #64ffda);
+}
+

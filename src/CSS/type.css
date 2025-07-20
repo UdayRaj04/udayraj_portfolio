@@ -1,0 +1,244 @@
+.socials {
+  position: relative;
+  margin-top: 9rem;
+}
+.socials .social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.socials .social-icons li {
+  display: inline-block;
+  margin-bottom: 14px;
+}
+.social-icons a {
+  font-size: 1.6rem;
+  display: inline-block;
+  line-height: 44px;
+  color:black;
+  background-color: white;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #0685da;
+}
+.social-icons a.github:hover {
+  background-color: #0e0e0e;
+}
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.social-icons a.dev:hover {
+  background-color: #070707;
+}
+.social-icons a.instagram:hover {
+  background-color: #ee00da;
+}
+
+.so{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.so a {
+    font-size: 1.5rem;
+  margin: 0 1rem;
+    color: #ffffff;
+  /* background-color: #000000; */
+  
+}
+
+.so a:hover {
+    transform: scale(1.1);
+
+  color: #64ffda;
+}
+
+.button-group {
+  margin-top: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contact-wrapper {
+  background: linear-gradient(to right, #0066ff, #64ffda);
+  padding: 1px;
+  border-radius: 9999px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.contact-wrapper:hover {
+  background: linear-gradient(to right, #64ffda, #0066ff);
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.75rem 0.75rem;
+  background-color: #0d1224;
+  color: #ffffff;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  border: none;
+  border-radius: 9999px;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .contact-btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+
+.contact-btn:hover {
+  gap: 0.75rem;
+}
+
+.resume-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.75rem 0.75rem;
+  background: linear-gradient(40deg, #64ffda, #0066ff);
+  color: white;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+.resume-btn:hover {
+  background: linear-gradient(40deg,#0066ff, #64ffda);
+}
+
+@media (min-width: 768px) {
+  .resume-btn {
+    padding: 1rem 2rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+}
+
+.resume-btn:hover {
+  gap: 0.75rem;
+  text-decoration: none;
+}
+
+
+.intro-container {
+    width: 70%;
+    
+  text-align: center;
+  margin-top: 100px;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  /* color: #333; */
+}
+.atype{
+   display: flex;
+}
+.ctype{
+  width: 45%;
+}
+ .btype{
+  margin-top: 100px;
+   width:  350px;
+    background: linear-gradient(to bottom right, #123456, #b1e9ef6a);
+    height: 82%;
+    border-radius: 5%;
+  /* padding: 20px; */
+  /* display: inline-block; */
+}
+/* .img{
+    width: 300px;
+} */
+.imguday {
+  
+  width: 350px;
+  border-radius: 5%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  mix-blend-mode: luminosity;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.imguday:hover {
+   mix-blend-mode: normal;
+  transform: scale(1.1) rotate(1deg);
+  filter: brightness(1.1);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+}
+
+h2, p {
+  text-align:center ;
+  font-size: 3rem;
+  font-weight:bolder;
+  color: white;
+}
+
+.highlight {
+  color: rgb(100, 255, 218);
+}
+
+p {
+  font-size: 1.7rem;
+  margin-top: 10px;
+}
+
+.typing-text {
+  color: rgb(100, 255, 218);
+  font-weight: bold;
+  white-space: pre;
+}
+@media (max-width: 768px) {
+  .ctype{
+  width:auto;
+}
+.atype{
+  display: inline;
+}
+.intro-container{
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{
+  font-size: 2.1rem;
+}
+p{
+  
+  font-size: 1.3rem;
+
+}
+.btype{
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.imguday{
+  width: 250px;
+}
+}

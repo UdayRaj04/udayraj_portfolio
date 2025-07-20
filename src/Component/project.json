@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Job Portal",
+    "desc": "Developed a MERN-based job portal for job seekers to apply and recruiters to post/manage jobs. Tech-stack: React JS, Node JS, MongoDB, Express JS.",
+    "image": "jobportal.png",
+    "category": "Web Development",
+    "links": {
+      "view": "https://talenttrack-hzjq.onrender.com",
+      "code": "https://github.com/UdayRaj04/Talent-Track"
+    }
+  },
+  {
+    "name": "Music Recommendation System Based on Facial Emotion",
+    "desc": "Detects user emotions via webcam and recommends mood-based songs using a trained ML model. Tech: React, YouTube API, Facial Recognition, ML.",
+    "image": "musicrecom.jpg",
+    "category": "ML & web",
+    "links": {
+      "view": "https://github.com/UdayRaj04/music_recommendation",
+      "code": "https://github.com/UdayRaj04/music_recommendation"
+    }
+  },
+  {
+    "name": "Smart Ambulance Booking System",
+    "desc": " Mobile app for real-time ambulance booking, driver tracking, and (admin) hospital bed updates. Tech: Flutter, Firebase, Google Maps API, Node.js, React.",
+    "image": "ambul.png",
+    "category": "android",
+    "links": {
+      "view": "https://devfolio.co/projects/smart-ambulance-booking-system-1752",
+      "code": "https://github.com/UdayRaj04/MediTech_Smart-Ambulance-Booking-System"
+    }
+  },
+  {
+    "name": "Chatbot AI",
+    "desc": "An intelligent voice/text assistant using GPT API to perform tasks, answer queries, and hold natural conversations. Tech: HTML,CSS, JavaScript, GPT API",
+    "image": "chatbot.png",
+    "category": "Web Development",
+    "links": {
+      "view": "https://github.com/UdayRaj04/ChatBot-AI",
+      "code": "https://github.com/UdayRaj04/ChatBot-AI"
+    }
+  }
+]

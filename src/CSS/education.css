@@ -1,0 +1,117 @@
+.edu-heading-bar {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+@media (min-width: 600px) {
+  .edu-heading-bar{
+    margin: 2rem 10% ;
+  }
+
+}
+
+.edu-heading-label {
+  background-color: #64ffda;
+  color:  #0a192f;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight:bold;
+  white-space: nowrap;
+}
+
+.edu-heading-line {
+  flex-grow: 1;
+  height: 2px;
+  background-color:  #64ffda;
+  margin-left: 10px;
+}
+
+
+.jobs-container {
+  background-color: #0d1d35;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jobs-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ccd6f6;
+  text-align: center;
+}
+ span{
+
+  /* color:  rgb(0, 0, 0); */
+}
+.heading{
+    padding: 20px;
+}
+
+
+.all {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.title {
+  width: 28%;
+  font-weight: bold;
+  color: #64ffda;
+  text-align: right;
+  padding-right: 1rem;
+  font-size: 1.1rem;
+}
+.year{
+    padding-top: 10px;
+    color:white;
+    font-size: medium;
+}
+
+.jobs-tab-content {
+  width: 70%;
+  border-left: 2px solid #233554;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #233554;
+  animation: fadeInUp 0.5s ease-in;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.jobs-tab-content h4 {
+  font-size: 1.2rem;
+  color: #ccd6f6;
+  margin: 0;
+}
+
+.job-range {
+  font-size: 0.9rem;
+  font-family: monospace;
+  color: #8892b0;
+  margin: 0.5rem 0;
+}
+
+.edu-board {
+  text-align: left;
+  font-size: 0.95rem;
+  color: #a8b2d1;
+}
+@media (max-width: 768px) {
+  .jobs-container{
+    margin: 10px;
+  }
+  
+}
