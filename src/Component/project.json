@@ -2,7 +2,7 @@
   {
     "name": "Job Portal",
     "desc": "Developed a MERN-based job portal for job seekers to apply and recruiters to post/manage jobs. Tech-stack: React JS, Node JS, MongoDB, Express JS.",
-    "image": "jobportal.png",
+    "image": "jobportal1.png",
     "category": "Web Development",
     "links": {
       "view": "https://talenttrack-hzjq.onrender.com",
