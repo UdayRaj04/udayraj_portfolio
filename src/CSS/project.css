@@ -95,7 +95,7 @@ html::-webkit-scrollbar-thumb{
 .work .button-group .btn{
     
   outline: none;
-  padding: 1rem 2rem;
+  padding: 1rem;
   background: transparent;
   color: #fff;
   border: 1px solid #fff;

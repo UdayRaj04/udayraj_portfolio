@@ -50,12 +50,12 @@
 
 .so{
     display: flex;
-    margin-top: 30px;
+    margin-top: 25px;
     justify-content: center;
 }
 .so a {
-    font-size: 1.5rem;
-  margin: 0 1rem;
+    font-size: 1rem;
+  margin: 0 .7rem;
     color: #ffffff;
   /* background-color: #000000; */
   
@@ -72,7 +72,7 @@
   justify-content: center;
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .contact-wrapper {
@@ -94,7 +94,7 @@
   padding: 0.75rem 0.75rem;
   background-color: #0d1224;
   color: #ffffff;
-  font-size: 0.85rem;
+  font-size: 0.6rem;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 0.05em;
@@ -192,6 +192,8 @@
   box-shadow: 0 10px 15px rgba(0,0,0,0.2);
 }
 
+
+
 h2, p {
   text-align:center ;
   font-size: 3rem;
@@ -225,11 +227,11 @@ p {
   margin-right: auto;
 }
 h2{
-  font-size: 2.1rem;
+  font-size: 1.5rem;
 }
 p{
   
-  font-size: 1.3rem;
+  font-size: 1rem;
 
 }
 .btype{

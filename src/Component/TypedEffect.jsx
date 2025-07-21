@@ -13,12 +13,12 @@ const TypedEffect = () => {
   useEffect(() => {
     typedInstance.current = new Typed(typedElement.current, {
       strings: [
-        "Frontend Development",
-        "Backend Development",
-        "Web Development",
-        "AIML",
-        "Data Analist"
-      ],
+  "Web Development",
+  "Frontend Development",
+  "Backend Development",
+  "AI/ML",
+  "Data Analyst"
+],
       typeSpeed: 50,
       backSpeed: 25,
       backDelay: 500,
@@ -29,6 +29,8 @@ const TypedEffect = () => {
       typedInstance.current.destroy();
     };
   }, []);
+
+  
 
   return (<div className="atype">
     <div className="intro-container">
