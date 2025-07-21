@@ -1,5 +1,5 @@
 // TypedEffect.jsx
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Typed from "typed.js";
 import "../CSS/type.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -30,6 +30,29 @@ const TypedEffect = () => {
     };
   }, []);
 
+   const imgRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true); // Trigger animation once on scroll into view
+          observer.unobserve(entry.target); // Optional: remove if you want repeated animation
+        }
+      },
+      { threshold: 0.1 } // When 40% of the element is visible
+    );
+
+    if (imgRef.current) {
+      observer.observe(imgRef.current);
+    }
+
+    return () => {
+      if (imgRef.current) observer.unobserve(imgRef.current);
+    };
+  }, []);
+
   
 
   return (<div className="atype">
@@ -56,7 +79,7 @@ const TypedEffect = () => {
         role="button"
         target="_blank"
         rel="noopener noreferrer"
-        href="{personalData.resume}"
+        href="uday_cv.pdf"
       >
         <span>Get Resume</span>
         <MdDownload size={16} />
@@ -65,7 +88,7 @@ const TypedEffect = () => {
     </div>
     <div className="ctype">
     <div className="btype">
-        <img  draggable="false" src="uday.png" alt="Uday" className="imguday" />
+        <img ref={imgRef} draggable="false" src="uday.png" alt="Uday" className="imguday" />
     </div>
     </div>
     </div>
