@@ -17,7 +17,7 @@ Welcome to the official portfolio of **Uday Raj Sharma**, showcasing projects, s
 
 ## 📸 Screenshot
 
-![Portfolio Screenshot](screenshot.jpg) 
+![Portfolio Screenshot](screenshot.png) 
 
 ---
 
