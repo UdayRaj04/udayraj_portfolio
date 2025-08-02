@@ -115,7 +115,7 @@ const Home = () => {
         </div>
       )}
       <div className="main-content"> {/* Content wrapper */}
-      <Navbar/>
+      {/* <Navbar/> */}
       <div className="aa">
       <TypedEffect/>
       <About/>
