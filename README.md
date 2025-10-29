@@ -2,7 +2,7 @@
 
 Welcome to the official portfolio of **Uday Raj Sharma**, showcasing projects, skills, and professional experience in web development, AI/ML, and software engineering.
 
-🌐 **Live Website**: [https://udayaj.web.app](https://udayaj.web.app)
+🌐 **Live Website**: [udayaj.web.app](https://udayaj.web.app)
 
 ---
 
