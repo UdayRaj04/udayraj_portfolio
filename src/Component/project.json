@@ -11,22 +11,61 @@
   },
   {
     "name": "Music Recommendation System Based on Facial Emotion",
-    "desc": "Detects user emotions via webcam and recommends mood-based songs using a trained ML model. Tech: React, YouTube API, Facial Recognition, ML.",
-    "image": "musicrecom.jpg",
+    "desc": "Detects user emotions via webcam and recommends mood-based songs using a trained ML model. Tech: React, Flask, TensorFlow, Keras.",
+    "image": "face.png",
     "category": "ML & web",
     "links": {
-      "view": "https://github.com/UdayRaj04/music_recommendation",
-      "code": "https://github.com/UdayRaj04/music_recommendation"
+      "view": "https://facemoodmusic.onrender.com",
+      "code": "https://github.com/UdayRaj04/FacialEmotion_musicRecommendations"
+    }
+  },
+  {
+    "name": "Seamless Chat App",
+    "desc": " A real-time chat application with user authentication,real-time msg, end-to-end encryption. Tech: React Native, Node.js, Socket.io, MongoDB.",
+    "image": "seamless.png",
+    "category": "android",
+    "links": {
+      "view": "https://github.com/UdayRaj04/Chatapp_native",
+      "code": "https://github.com/UdayRaj04/Chatapp_native"
+    }
+  },
+  {
+    "name": "Test case generator application with github",
+    "desc": "A Web app that connects to GitHub, analyzes code with AI to generate test cases, and creates PR. Tech: React, Node.js, GitHub OAuth, Gemini API.",
+    "image": "test.png",
+    "category": "Web",
+    "links": {
+      "view": "https://github.com/UdayRaj04/testcasegenerator_using-github/blob/main/app_demo.mp4",
+      "code": "https://github.com/UdayRaj04/testcasegenerator_using-github"
     }
   },
   {
     "name": "Smart Ambulance Booking System",
     "desc": " Mobile app for real-time ambulance booking, driver tracking, and (admin) hospital bed updates. Tech: Flutter, Firebase, Google Maps API, Node.js, React.",
-    "image": "ambul.png",
+    "image": "ambull.png",
     "category": "android",
     "links": {
       "view": "https://devfolio.co/projects/smart-ambulance-booking-system-1752",
       "code": "https://github.com/UdayRaj04/MediTech_Smart-Ambulance-Booking-System"
+    }
+  },
+  {
+    "name": "My Portfolio",
+    "desc": "A personal portfolio website showcasing my projects, skills, and experience. Tech: React JS, CSS, HTML.",
+    "image": "portfolio.png",
+    "category": "android",
+    "links": {
+      "view": "https://udayaj.web.app",
+      "code": "https://github.com/UdayRaj04/udayraj_portfolio"
+    }
+  },{
+    "name": "Crypto Crash Game",
+    "desc": "An online real-time multiplayer crash game where players bet in USD, converted to crypto, and try to cash out before the multiplier crashes.Tech: React, Node.js, Socket.io, MongoDB.",
+    "image": "crypto.png",
+    "category": "Web Development",
+    "links": {
+      "view": "https://crypto-crash-fjy8.onrender.com",
+      "code": "https://github.com/UdayRaj04/crypto-crash-game"
     }
   },
   {

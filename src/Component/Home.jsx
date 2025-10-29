@@ -124,6 +124,7 @@ const Home = () => {
       <Education/>
       <Skill/>
       <Project/>
+      <Certificates/>
       {/* <Certificates/> */}
       <Contact/>
       </div>

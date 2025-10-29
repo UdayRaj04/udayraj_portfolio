@@ -1,31 +1,58 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../CSS/certi.css";
 
 const certificates = [
   {
-    name: "Full Stack Web Development - Coursera",
-    image: "uday.png", // public folder or use import
-    link: "https://example.com/fullstack-cert"
+    name: "MERN Stack Dev.- Ardent",
+    image: "ardent.jpg", // public folder or use import
+    link: "https://certificate.ardentsoftware.co.in/generate/136388"
   },
   {
-    name: "Advanced Node.js - Udemy",
-    image: "/certificates/nodejs.jpg",
-    link: "https://example.com/nodejs-cert"
+    name: "2025 Core JAVA -Udemy",
+    image: "ggg.jpg",
+    link: "https://www.udemy.com/certificate/UC-71167b60-53a2-4791-9713-e49512997cc3/"
+  },{
+    name: "Practice Next.js & React.js Web App",
+    image: "sggs.jpg",
+    link: "https://www.udemy.com/certificate/UC-0876325e-ce36-48a3-a46a-05be3547ec88"
+  }
+  ,{
+    name: "DSU DevHack 2024",
+    image: "dsu.png"
+  },{
+    name: "HackSpire 2024",
+    image: "hackspire.png"
   },
   {
-    name: "MySQL for Developers - EdX",
-    image: "/certificates/mysql.jpg",
-    link: "https://example.com/mysql-cert"
+    name: "Adobe GenSolve 2024",
+    image: "adobe.jpg",
+  },{
+    name: "SIH Internal 2024",
+    image: "sih24.jpg"
   }
 ];
 
 const Certificates = () => {
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] =  useState(0); // ✅ default first certificate
 
+  useEffect(() => {
+    // Ensure first certificate is active on load
+    if (certificates.length > 0) {
+      setSelected(0);
+    }
+  }, [certificates]);
   return (
+    <div id="Certificates">
+    <div className="edu-heading-bar">
+        <span className="edu-heading-label">
+          <i className="fas fa-certificate"></i> Certificates
+        </span>
+        <span className="edu-heading-line"></span>
+      </div>
     <div className="certificates-container">
       <div className="cert-list">
         {certificates.map((cert, index) => (
+          <div className="cert-list-l">
           <button
             key={index}
             className={`cert-button ${selected === index ? "active" : ""}`}
@@ -33,6 +60,7 @@ const Certificates = () => {
           >
             {cert.name}
           </button>
+          </div>
         ))}
       </div>
 
@@ -43,6 +71,7 @@ const Certificates = () => {
           </a>
         </div>
       )}
+    </div>
     </div>
   );
 };
