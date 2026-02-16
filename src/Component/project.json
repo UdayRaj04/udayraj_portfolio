@@ -1,4 +1,14 @@
-[
+[ 
+  {
+    "name": "AI-Powered Crop Advisor & Disease Detection",
+    "desc": "Key Features : Crop Recommendations, Crop Disease Detection, Fertilizer Recommendations Tech-stack: React JS, Fastapi, Machine Learning, Tensorflow.",
+    "image": "agri.png",
+    "category": "Web Development & ML",
+    "links": {
+      "view": "https://agritech-c6vy.onrender.com",
+      "code": "https://github.com/UdayRaj04/AgriTech"
+    }
+  },
   {
     "name": "Job Portal",
     "desc": "Developed a MERN-based job portal for job seekers to apply and recruiters to post/manage jobs. Tech-stack: React JS, Node JS, MongoDB, Express JS.",
