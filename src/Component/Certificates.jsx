@@ -2,6 +2,11 @@ import React, { useEffect, useState } from "react";
 import "../CSS/certi.css";
 
 const certificates = [
+  
+  {
+    name: "TCS Codevita 13 - Rank 340",
+    image: "codevita13.jpg"
+  },
   {
     name: "MERN Stack Dev.- Ardent",
     image: "ardent.jpg", // public folder or use import
