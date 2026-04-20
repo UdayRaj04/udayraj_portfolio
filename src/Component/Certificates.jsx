@@ -5,7 +5,7 @@ const certificates = [
   
   {
     name: "TCS Codevita 13 - Rank 340",
-    image: "codevita13.jpg"
+    image: "public/codevita13.jpg"
   },
   {
     name: "MERN Stack Dev.- Ardent",
